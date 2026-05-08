@@ -677,3 +677,10 @@ body:hover .mouse-light{
     right:auto;
   }
 }
+.project-image img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 18px;
+    display: block;
+}
