@@ -676,11 +676,36 @@ body:hover .mouse-light{
     left:2px;
     right:auto;
   }
+  
 }
+.project-image {
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+  border-radius: 22px;
+  margin-bottom: 22px;
+  border: 1px solid rgba(214,168,79,.28);
+  background: rgba(255,255,255,.035);
+}
+
 .project-image img {
-    width: 100%;
-    height: 260px;
-    object-fit: cover;
-    border-radius: 18px;
-    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: 22px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card h3 {
+  min-height: 58px;
+}
+
+.project-card p {
+  flex-grow: 1;
 }
