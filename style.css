@@ -744,7 +744,13 @@ body:hover .mouse-light{
   }
 
 }
-.hero {
-    direction: ltr;
-    text-align: left;
+html[lang="ar"] .hero,
+html[lang="ar"] .hero * {
+  direction: ltr !important;
+  text-align: center !important;
+}
+
+html[lang="ar"] .hero-center {
+  direction: ltr !important;
+  text-align: center !important;
 }
