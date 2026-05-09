@@ -734,3 +734,17 @@ body:hover .mouse-light{
   opacity: 0;
   visibility: hidden;
 }
+@media (max-width: 768px) {
+
+  .nav-links {
+    display: flex !important;
+    gap: 14px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
+.hero {
+    direction: ltr;
+    text-align: left;
+}
