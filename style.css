@@ -676,7 +676,7 @@ body:hover .mouse-light{
     left:2px;
     right:auto;
   }
-  
+
 }
 .project-image {
   width: 100%;
@@ -708,4 +708,29 @@ body:hover .mouse-light{
 
 .project-card p {
   flex-grow: 1;
+}
+.loader {
+  position: fixed;
+  inset: 0;
+  background: #020604;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: opacity .8s ease, visibility .8s ease;
+}
+
+.loader-logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 64px;
+  color: #f2eadc;
+}
+
+.loader-logo span {
+  color: #d6a84f;
+}
+
+.loader.hidden {
+  opacity: 0;
+  visibility: hidden;
 }
