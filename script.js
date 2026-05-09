@@ -26,3 +26,12 @@ window.addEventListener('mouseenter', () => {
   if (!mouseLight) return;
   mouseLight.style.opacity = '.9';
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const loader = document.querySelector(".loader");
+
+  if (loader) {
+    setTimeout(() => {
+      loader.classList.add("hidden");
+    }, 1200);
+  }
+});
